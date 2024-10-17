@@ -10,7 +10,7 @@ a = sys.argv[1] # recebe a
 b = sys.argv[2] # recebe b
 
 if not (a.isdigit() and b.isdigit()): # confere se o usuário colocar um digito e, não uma letra
-    print("Erro - Coloque apenas números")
+    print("Erro - Coloque apenas números inteiros")
     sys.exit()
 
 a_int = int(a) # transforma a em int
